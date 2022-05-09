@@ -10,7 +10,7 @@
   Conservative:0 "Conservative"
  Conservative_noun:0 "Conservative"
   Fascism:0 "Fascist"
- fascism_noun:0 "Fascism"
+ Fascism_noun:0 "Fascism"
   Liberalism:0 "Liberal"
  Liberalism_noun:0 "Liberalism"
   National_Socialism:0 "National Socialist"
@@ -21,10 +21,19 @@
  Social_Democracy_noun:0 "Social Democracy"
   Socialism:0 "Socialist"
  Socialism_noun:0 "Socialism"
-  Valkism:0 "Valkist"
- Valkism_noun:0 "Valkism"
+
  
  
  
  
  GER_Authoritarianism_party:0 "DVLP"
+ GER_Communism_party:0 "KPD"
+ GER_Socialism_party:0 "SPD"
+ GER_Anarchism_party:0 "FAUD"
+ GER_Social_Democracy_party:0 "USPD"
+ GER_Liberalism_party:0 "NLP"
+ GER_Conservative_party:0 "CSP"
+ GER_Paternalism_party:0 "Militärregierung"
+ GER_National_Socialism_party:0 "-"
+ GER_Fascism_party:0 "-"
+ GER_Burgundian_System_party:0 "-"
