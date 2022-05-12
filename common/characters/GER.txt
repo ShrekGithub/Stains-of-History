@@ -1,0 +1,16 @@
+characters={
+	GER_Wilhelm_II={
+		name="Wilhelm II"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Wilhelm_II.dds"
+			}
+		}
+		country_leader={
+			ideology=Prussian_Constitutionalism
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+}

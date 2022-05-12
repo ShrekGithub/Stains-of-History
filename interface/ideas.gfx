@@ -1,0 +1,25 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_idea_Front_Stalemate"
+		texturefile = "gfx/interface/ideas/Front_Stalemate.dds"
+		noOfFrames = 17		
+	}
+	
+		SpriteType = {
+		name = "GFX_idea_Schlieffen_Plan"
+		texturefile = "gfx/interface/ideas/Schlieffen_Plan.dds"
+		noOfFrames = 17		
+	}
+	
+		SpriteType = {
+		name = "GFX_idea_Low_Famine"
+		texturefile = "gfx/interface/ideas/Low_Famine.dds"
+		noOfFrames = 17		
+	}
+
+	
+	
+}

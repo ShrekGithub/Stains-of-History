@@ -1,0 +1,66 @@
+ideas = {
+
+country = {
+		Front_Stalemate = {
+		
+		
+		   allowed = {
+		       tag = GER
+		    }
+		
+		    available = {
+		    }
+		
+		    cancel = {
+		    }
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				offence = -0.1
+				defence = -0.1
+				army_org_factor = -20
+				attrition = -0.1
+			}
+		}
+	}
+	country = {
+		Schlieffen_Plan = {
+			
+			allowed = {
+				tag = GER
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+	}
+	country = {
+		Low_Famine = {
+			
+			allowed = {
+				tag = GER
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				supplu_consumption_factor = -0.05
+
+			}
+		}
+	}
+}
