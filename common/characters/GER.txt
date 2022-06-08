@@ -13,4 +13,66 @@ characters={
 
 		}
 	}
+	GER_Friedrich_Hebert={
+		name="Friedrich Hebert"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Friedrich_Hebert.dds"
+			}
+		}
+		country_leader={
+			ideology=Democratic_Socialism
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+	GER_Karl_Leibnicht={
+		name="Karl Leibnicht"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Karl_Leibnicht.dds"
+			}
+		}
+		country_leader={
+			ideology=Revolutionary_Front
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+	GER_Ernst_Thalmann={
+		name="Ernst_Thalmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Ernst_Thalmann.dds"
+			}
+		}
+		country_leader={
+			ideology=Communism
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+	
+	GER_Albrect_Von_Wurttenberg={
+		name="Albrect Von Wurttenberg"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Albrect_Von_Wurttenberg.dds"
+			}
+		}
+		
+		
+		field_marshal={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
 }

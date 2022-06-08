@@ -3,6 +3,10 @@ ideologies = {
 	Communism = {
 
 		types = {
+		
+							Communism = {
+			}
+			
 		}
 		
 		dynamic_faction_names = {
@@ -55,6 +59,11 @@ ideologies = {
 	Socialism = {
 	
 		types = {
+		
+							Revolutionary_Front = {
+			}
+			
+			
 		}
 		
 		dynamic_faction_names = {
@@ -159,6 +168,11 @@ ideologies = {
 	Social_Democracy = {
 	
 		types = {
+		
+							Democratic_Socialism = {
+			}
+			
+			
 		}
 		
 		dynamic_faction_names = {

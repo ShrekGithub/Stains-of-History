@@ -1,22 +1,18 @@
-ideas = {
-
+ideas = {	
+country = {
 country = {
 		Front_Stalemate = {
-		
-		
-		   allowed = {
-		       tag = GER
-		    }
-		
-		    available = {
-		    }
-		
-		    cancel = {
-		    }
-		
+			picture = Front_Stalemate
+			
+			allowed = {
+				always = no
+			}
+
 			allowed_civil_war = {
 				always = yes
 			}
+
+			removal_cost = -1
 			
 			modifier = {
 				offence = -0.1
@@ -25,8 +21,7 @@ country = {
 				attrition = -0.1
 			}
 		}
-	}
-	country = {
+
 		Schlieffen_Plan = {
 			
 			allowed = {
@@ -43,8 +38,8 @@ country = {
 				
 			}
 		}
-	}
-	country = {
+	
+
 		Low_Famine = {
 			
 			allowed = {
@@ -58,9 +53,13 @@ country = {
 			removal_cost = -1
 			
 			modifier = {
-				supplu_consumption_factor = -0.05
+				supply_consumption_factor = -0.05
 
+				}
 			}
 		}
-	}
-}
+	}	
+
+
+
+	
