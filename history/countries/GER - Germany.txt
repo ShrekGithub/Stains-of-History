@@ -154,7 +154,10 @@ create_import = {
 	add_command_power = 100
 	
 	#adding ministers
-	add_ideas = {
+	add_ideas = {	
+	 Low_Famine
+    Schlieffen_Plan
+    Front_Stalemate
 		henschel
 		ig_faben
 		heinrich_himmler
@@ -382,15 +385,12 @@ add_ideas = GER_mefo_bills_1
 
 activate_mission = GER_mefo_bills_mission
 recruit_character = GER_Wilhelm_II
+recruit_character = GER_Friedrich_Hebert
+recruit_character = GER_Karl_Leibnicht
+recruit_character = GER_Ernst_Thalmann
+recruit_character = GER_Albrect_Von_Wurttenberg
 
 
-
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	recruit_character = GER_carl_friedrich_goerdeler
-}
 
 if = {
 	limit = {

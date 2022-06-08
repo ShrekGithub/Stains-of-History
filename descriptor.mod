@@ -1,7 +1,6 @@
-version="0.1"
+version="1.0"
 tags={
-	"National Focuses"
-	"Gameplay"
+	"Alternative History"
 }
-name="Grossfallen"
-supported_version="1.11.10"
+name="grossfallen"
+supported_version="1.11.11"

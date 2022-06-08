@@ -1,0 +1,56 @@
+﻿l_english:
+ GER_Authoritarianism:0 "German Empire"
+ GER_Authoritarianism_DEF:0 "the German Empire"
+ GER_Authoritarianism_ADJ:0 "German"
+ GER:0 "Germany"
+ GER_DEF:0 "Germany"
+ GER_ADJ:0 "German"
+ 
+ 
+ SOV_Authoritarianism:0 "Russian Empire"
+ SOV_Authoritarianism_DEF:0 "the Russian Empire"
+ SOV_Authoritarianism_ADJ:0 "Russian"
+ SOV:0 "Russia"
+ SOV_DEF:0 "Russia"
+ SOV_ADJ:0 "Russian"
+ 
+ 
+ AUS_Conservative:0 "Austro-Hungarian Empire"
+ AUS_Conservative_DEF:0 "the Austro-Hungarian Empire"
+ AUS_Conservative_ADJ:0 "Austro-Hungarian"
+ AUS:0 "Austria"
+ AUS_DEF:0 "Austria"
+ AUS_ADJ:0 "Austrian"
+ 
+ 
+ FRA_Liberalism:0 "French Republic"
+ FRA_Liberalism_DEF:0 "the French Republic"
+ FRA_Liberalism_ADJ:0 "French"
+ FRA:0 "France"
+ FRA_DEF:0 "France"
+ FRA_ADJ:0 "French"
+ 
+ 
+ DEN_Conservative:0 "Kingdom of Denmark"
+ DEN_Conservative_DEF:0 "the Kingdom of Denmark"
+ DEN_Conservative_ADJ:0 "Danish"
+ DEN:0 "Denmark"
+ DEN_DEF:0 "Denmark"
+ DEN_ADJ:0 "Danish"
+ 
+ 
+ NOR_Liberalism:0 "Kingdom of Norway"
+ NOR_Liberalism_DEF:0 "the Kingdom of Norway"
+ NOR_Liberalism_ADJ:0 "Norwegian"
+ NOR:0 "Norway"
+ NOR_DEF:0 "Norway"
+ NOR_ADJ:0 "Norwegian"
+ 
+ 
+ SWE_Social_Democracy:0 "Kingdom of Sweden"
+ SWE_Social_Democracy_DEF:0 "the Kingdom of Sweden"
+ SWE_Social_Democracy_ADJ:0 "Swedish"
+ SWE:0 "Sweden"
+ SWE_DEF:0 "Sweden"
+ SWE_ADJ:0 "Swedish"
+

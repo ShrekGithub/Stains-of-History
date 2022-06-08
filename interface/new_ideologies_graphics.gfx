@@ -9,6 +9,11 @@ spriteTypes = {
 		name = "GFX_ideology_Authoritarianism_group"
 		texturefile = "gfx/interface/ideologies/Authoritarianism_group.dds"
 	}
+	
+			spriteType = {
+		name = "GFX_ideology_Social_Democracy_group"
+		texturefile = "gfx/interface/ideologies/Social_Democracy_group.dds"
+	}
 
 
 }
