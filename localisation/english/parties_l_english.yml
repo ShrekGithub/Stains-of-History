@@ -1,6 +1,8 @@
 ﻿l_english:
  Anarchism:0 "Anarchist"
  Anarchism_noun:0 "Anarchism"
+ Anarcho_Communism:0 "Anarcho-Communism"
+ Military_Anarchism:0 "Military Anarchism"
  
   Authoritarianism:0 "Authoritarian"
  Authoritarianism_noun:0 "Authoritarianism"
@@ -11,6 +13,12 @@
  
   Communism:0 "Communist"
  Communism_noun:0 "Communism"
+ Marxism_Leninism:0 "Marxism-Leninism"
+ Stalinism:0 "Stalinism"
+ Trotskyism:0 "Trotskyism"
+ Maoism:0 "Maoism"
+ Bukharinism:0 "Bukharinism"
+ Stratocratic_Communism:0 "Stratocratic Communism"
  
   Conservative:0 "Conservative"
  Conservative_noun:0 "Conservative"
@@ -29,9 +37,12 @@
  
   Social_Democracy:0 "Social Democratic"
  Social_Democracy_noun:0 "Social Democracy"
+ Democratic_Socialism:0 "Democratic Socialism"
  
   Socialism:0 "Socialist"
  Socialism_noun:0 "Socialism"
+ Revolutionary_Front:0 "Revolutionary Front"
+ Liberal_Socialism:0 "Liberal Socialism"
 
  
  

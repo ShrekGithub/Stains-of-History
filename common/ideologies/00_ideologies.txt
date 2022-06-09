@@ -3,8 +3,17 @@ ideologies = {
 	Communism = {
 
 		types = {
-		
-							Communism = {
+				Marxism_Leninism = {
+			}
+				Stalinism = {
+			}
+				Trotskyism = {
+			}
+				Maoism = {
+			}
+				Bukharinism = {
+			}
+				Stratocratic_Communism = {
 			}
 			
 		}
@@ -60,8 +69,11 @@ ideologies = {
 	
 		types = {
 		
-							Revolutionary_Front = {
+				Revolutionary_Front = {
 			}
+				Liberal_Socialism = {
+			}
+
 			
 			
 		}
@@ -116,6 +128,12 @@ ideologies = {
 	Anarchism = {
 	
 		types = {
+		
+				Anarcho_Communism = {
+			}
+				Military_Anarchism = {
+			}
+			
 		}
 		
 		dynamic_faction_names = {
