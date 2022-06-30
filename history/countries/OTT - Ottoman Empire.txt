@@ -1,6 +1,6 @@
-﻿capital = 105 # Montenegro
+﻿capital = 797
 
-oob = "MON_1936"
+oob = ""
 
 set_research_slots = 3
 
@@ -16,13 +16,13 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = Conservatism
+	ruling_party = Paternalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	Authoritarianism = 40
+	Authoritarianism = 0
 	Anarchism = 0
 	Burgundian_System = 0
 	Communism = 10
@@ -30,7 +30,7 @@ set_popularities = {
 	Fascism = 0
 	Liberalism = 10
 	National_Socialism = 0
-	Paternalism = 0
+	Paternalism = 40
 	Social_Democracy = 20
 	Socialism = 8
 	Ultranationalism = 0
@@ -99,37 +99,6 @@ set_popularities = {
 	communism = 34
 }
 
-create_country_leader = {
-	name = "Sekula Drljević"
-	desc = ""
-	picture = GFX_portrait_Sekula_Drljevic
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
 
-create_country_leader = {
-	name = "Novica Radović"
-	desc = ""
-	picture = GFX_portrait_Novica_Radovic
-	expire = "1953.3.1"
-	ideology = oligarchism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Blažo Jovanović"
-	desc = ""
-	picture = GFX_portrait_Blazo_Jovanovic
-	expire = "1953.3.1"
-	ideology = leninism
-	traits = {
-		
-	}
-}
 
 

@@ -355,21 +355,26 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	Authoritarianism = 40
+	Authoritarianism = 49
 	Anarchism = 0
 	Burgundian_System = 0
-	Communism = 10
-	Conservative = 12
+	Communism = 3
+	Conservatism = 4
 	Fascism = 0
 	Liberalism = 10
 	National_Socialism = 0
 	Paternalism = 0
-	Social_Democracy = 20
-	Socialism = 8
+	Social_Democracy = 21
+	Socialism = 2
+	Ultranationalism = 0
+	Centrism = 11
 }
 
 create_faction = Central_Powers
 add_to_faction = GER
+add_to_faction = AUS
+add_to_faction = BUL
+add_to_faction = TUR
 
 
 add_ideas = {

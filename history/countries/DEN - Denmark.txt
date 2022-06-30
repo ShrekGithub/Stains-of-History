@@ -150,7 +150,7 @@ if = {
 
 
 set_politics = {
-	ruling_party = Conservative
+	ruling_party = Social_Democracy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -160,13 +160,15 @@ set_popularities = {
 	Anarchism = 0
 	Burgundian_System = 0
 	Communism = 10
-	Conservative = 40
+	Conservatism = 40
 	Fascism = 0
 	Liberalism = 12
 	National_Socialism = 0
 	Paternalism = 0
 	Social_Democracy = 20
 	Socialism = 8
+	Ultranationalism = 0
+	Centrism = 0
 }
 
 

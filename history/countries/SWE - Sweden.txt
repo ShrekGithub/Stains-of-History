@@ -189,13 +189,15 @@ set_popularities = {
 	Anarchism = 0
 	Burgundian_System = 0
 	Communism = 10
-	Conservative = 20
+	Conservatism = 20
 	Fascism = 0
 	Liberalism = 12
 	National_Socialism = 0
 	Paternalism = 0
 	Social_Democracy = 40
 	Socialism = 8
+	Ultranationalism = 0
+	Centrism = 0
 }
 
 1939.1.1 = {

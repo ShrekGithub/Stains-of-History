@@ -153,7 +153,7 @@ set_convoys = 200		# biggest merchant marine in the world
 set_stability = 0.7
 
 set_politics = {
-	ruling_party = Liberalism
+	ruling_party = Conservatism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -163,13 +163,15 @@ set_popularities = {
 	Anarchism = 0
 	Burgundian_System = 0
 	Communism = 10
-	Conservative = 20
+	Conservatism = 20
 	Fascism = 0
 	Liberalism = 40
 	National_Socialism = 0
 	Paternalism = 0
 	Social_Democracy = 12
 	Socialism = 8
+	Ultranationalism = 0
+	Centrism = 0
 }
 
 1939.1.1 = {

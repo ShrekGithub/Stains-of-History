@@ -158,47 +158,7 @@ add_ideas = {
 set_convoys = 800
 
 # DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	else = {
-		puppet = MAL
-		puppet = RAJ
-	}
-}
+
 
 
 if = {
@@ -397,7 +357,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = Conservative
+	ruling_party = Liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -407,13 +367,15 @@ set_popularities = {
 	Anarchism = 0
 	Burgundian_System = 0
 	Communism = 10
-	Conservative = 40
+	Conservatism = 40
 	Fascism = 0
 	Liberalism = 12
 	National_Socialism = 0
 	Paternalism = 0
 	Social_Democracy = 20
 	Socialism = 8
+	Ultranationalism = 0
+	Centrism = 0
 }
 
 
