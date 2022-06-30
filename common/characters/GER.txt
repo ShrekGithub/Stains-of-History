@@ -49,7 +49,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=Communism
+			ideology=Marxism
 			traits={ }
 			expire="1965.1.1.1"
 

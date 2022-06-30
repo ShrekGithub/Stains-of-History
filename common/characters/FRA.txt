@@ -1,0 +1,16 @@
+characters={
+	FRA_Raymond_Poincare={
+		name="Raymond Poincarè"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Raymond_Poincarè.dds"
+			}
+		}
+		country_leader={
+			ideology=Progressive_Liberalism
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+}

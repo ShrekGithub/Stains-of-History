@@ -1,5 +1,5 @@
 ideas = {	
-country = {
+
 country = {
 		Front_Stalemate = {
 			picture = Front_Stalemate

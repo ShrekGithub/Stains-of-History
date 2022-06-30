@@ -3,17 +3,23 @@ ideologies = {
 	Communism = {
 
 		types = {
-				Marxism_Leninism = {
+			Marxism = {
 			}
-				Stalinism = {
+			Stalinism = {
 			}
-				Trotskyism = {
+			Trotskyism = {
 			}
-				Maoism = {
+			Maoism = {
 			}
-				Bukharinism = {
+			Bukharinism = {
 			}
-				Stratocratic_Communism = {
+			Stratocratic_Communism = {
+			}
+			Mao_Zedong_Thought = {
+			}
+			National_Communism = {
+			}
+			Islamic_Marxism = {
 			}
 			
 		}
@@ -69,9 +75,15 @@ ideologies = {
 	
 		types = {
 		
-				Revolutionary_Front = {
+			Revolutionary_Front = {
 			}
-				Liberal_Socialism = {
+			Market_Socialism = {
+			}
+			Agrarian_Socialism = {
+			}
+			Syndicalism = {
+			}
+			Social_Nationalism = {
 			}
 
 			
@@ -131,7 +143,7 @@ ideologies = {
 		
 				Anarcho_Communism = {
 			}
-				Military_Anarchism = {
+				Anarcho_Syndicalism = {
 			}
 			
 		}
@@ -145,7 +157,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 0 0 0 }
+		color = { 204 0 0 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -187,7 +199,11 @@ ideologies = {
 	
 		types = {
 		
-							Democratic_Socialism = {
+			Democratic_Socialism = {
+			}
+			Left_Wing_Populism = {
+			}
+			Popular_Front = {
 			}
 			
 			
@@ -243,6 +259,17 @@ ideologies = {
 	Liberalism = {
 	
 		types = {
+		
+		Market_Liberalism = {
+		}
+		Progressive_Liberalism = {
+		}
+		National_Liberalism = {
+		}
+		Classical_Liberalism = {
+		}
+			
+			
 		}
 		
 		dynamic_faction_names = {
@@ -254,7 +281,62 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 150 150 0 }
+		color = { 78 97 163 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		
+		can_be_boosted = no
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+	}
+
+Centrism = {
+	
+		types = {
+		
+		Liberal_Conservatism = {
+		}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 83 124 195 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -292,9 +374,23 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 	
-	Conservative = {
+	Conservatism = {
 	
 		types = {
+		
+			Right_Wing_Populism = {
+			}
+			Paternalistic_Conservatism = {
+			}
+			Agrarianism = {
+			}
+			Christian_Democracy = {
+			}
+			Islamic_Democracy = {
+			}
+			Populist_Conservatism = {
+			}
+			
 		}
 		
 		dynamic_faction_names = {
@@ -348,7 +444,19 @@ ideologies = {
 	
 		types = {
 		
-					Prussian_Constitutionalism = {
+			Prussian_Constitutionalism = {
+			}
+			Oligarchy = {
+			}
+			National_Conservatism = {
+			}
+			Controlled_Democracy = {
+			}
+			Stratocracy = {
+			}
+			Kemalism = {
+			}
+			Semi_Constitutional_Monarchy = {
 			}
 			
 		}
@@ -403,7 +511,29 @@ ideologies = {
 	Paternalism = {
 	
 		types = {
+		Absolute_Monarchy = {
 		}
+		Military_Junta = {
+		}
+		Civilian_Dictatorship = {
+		}
+		Theocracy = {
+		}
+		Papacy = {
+		}
+		Interim_Government = {
+		}
+		Colonial_Government = {
+		}
+		Aristocratic_Conservatism = {
+		}
+		Vanguard_Anarchism = {
+		}
+		Personalistic_Dictatorship = {
+		}
+		Partisan_Movement = {
+		}
+	}
 		
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
@@ -451,11 +581,81 @@ ideologies = {
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
+	
+Ultranationalism = {
+	
+		types = {
+		Fundamentalism = {
+		}
+		Legionism = {
+		}
+		Paganism = {
+		}
+		Ultramilitarism = {
+		}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 0 0 0 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		
+		can_be_boosted = no
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+	}
 
 Fascism = {
 	
 		types = {
+		Corporatism = {
 		}
+		Revolutionary_Nationalism = {
+		}
+		Proletariat_Nationalism = {
+		}
+		National_Syndacalism = {
+		}
+		Clerical_Fascism = {
+		}
+	}
 		
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
@@ -507,6 +707,12 @@ Fascism = {
 National_Socialism = {
 	
 		types = {
+		Stratocratic_Nazism = {
+		}
+		Neo_Nazism = {
+		}
+		Fanatical_Nazism = {
+		}
 		}
 		
 		dynamic_faction_names = {
@@ -559,6 +765,11 @@ National_Socialism = {
 	Burgundian_System = {
 	
 		types = {
+		
+		Esoteric_Nazism = {
+		}
+		Spartanism = {
+		}
 		}
 		
 		dynamic_faction_names = {

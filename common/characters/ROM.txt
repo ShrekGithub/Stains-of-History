@@ -1,0 +1,16 @@
+characters={
+	ROM_Ferdinand_I={
+		name="Ferdinand I"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROM/Portrait_Romania_Ferdinand_I.dds"
+			}
+		}
+		country_leader={
+			ideology=Paternalistic_Conservatism
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+}

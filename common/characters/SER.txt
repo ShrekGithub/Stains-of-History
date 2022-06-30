@@ -1,0 +1,16 @@
+characters={
+	SER_Stojan_Protic={
+		name="Stojan Protić"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_Serbia_Stojan_Protic.dds"
+			}
+		}
+		country_leader={
+			ideology=Paternalistic_Conservatism
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	SOV_Nicholas_II={
+		name="Nicholas II"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Portrait_Russia_Nicholas_II.dds"
+			}
+		}
+		country_leader={
+			ideology=Absolute_Monarchy
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+}

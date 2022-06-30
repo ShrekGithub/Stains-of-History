@@ -1,0 +1,16 @@
+characters={
+	BUL_Ferdinand_I={
+		name="Ferdinand I"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUL/Portrait_Bulgaria_Ferdinand_I.dds"
+			}
+		}
+		country_leader={
+			ideology=Left_Wing_Populism
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+}
