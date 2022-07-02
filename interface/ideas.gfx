@@ -3,19 +3,19 @@ spriteTypes = {
 
 
 	SpriteType = {
-		name = "GFX_idea_Front_Stalemate"
+		name = "GFX_idea_ger_front_stalemate"
 		texturefile = "gfx/interface/ideas/Front_Stalemate.dds"
 		noOfFrames = 17		
 	}
 	
 		SpriteType = {
-		name = "GFX_idea_Schlieffen_Plan"
+		name = "GFX_idea_ger_schlieffen_plan"
 		texturefile = "gfx/interface/ideas/Schlieffen_Plan.dds"
 		noOfFrames = 17		
 	}
 	
 		SpriteType = {
-		name = "GFX_idea_Low_Famine"
+		name = "GFX_idea_ger_low_famine"
 		texturefile = "gfx/interface/ideas/Low_Famine.dds"
 		noOfFrames = 17		
 	}
