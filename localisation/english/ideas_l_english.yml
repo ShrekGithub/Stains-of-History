@@ -1,7 +1,7 @@
 ﻿l_english:
- Front_Stalemate:0 "Front stalemate"
- Front_Stalemate_desc:0 ""
- Schlieffen_Plan:0 "Schlieffen plan"
- Schlieffen_Plan_desc:0 ""
- Low_Famine:0 "Low famine"
- Low_Famine_desc:0 ""
+ GER_front_stalemate:0 "Front Stalemate"
+ GER_front_stalemate_desc:0 ""
+ GER_schlieffen_plan:0 "Schlieffen Plan"
+ GER_schlieffen_plan_desc:0 ""
+ GER_low_famine:0 "Low Famine"
+ GER_low_famine_desc:0 ""

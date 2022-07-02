@@ -155,9 +155,9 @@ create_import = {
 	
 	#adding ministers
 	add_ideas = {	
-	 Low_Famine
-    Schlieffen_Plan
-    Front_Stalemate
+	GER_low_famine
+    GER_schlieffen_plan
+    GER_front_stalemate
 		henschel
 		ig_faben
 		heinrich_himmler
@@ -378,9 +378,9 @@ add_to_faction = TUR
 
 
 add_ideas = {
-    Low_Famine
-    Schlieffen_Plan
-    Front_Stalemate
+    GER_low_famine
+    GER_schlieffen_plan
+    GER_front_stalemate
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
