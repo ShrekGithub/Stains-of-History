@@ -1,0 +1,16 @@
+characters={
+	ITA_Vittorio_Orlando={
+		name="Vittorio Orlando"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_Italy_Vittorio_Orlando.dds"
+			}
+		}
+		country_leader={
+			ideology=Populist_Conservatism
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+}

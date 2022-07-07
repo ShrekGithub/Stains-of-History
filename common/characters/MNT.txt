@@ -1,0 +1,16 @@
+characters={
+	MNT_Evgenije_Popovic={
+		name="Evgenije Popović"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_Montenegro_Evgenije_Popovic.dds"
+			}
+		}
+		country_leader={
+			ideology=Paternalistic_Conservatism
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+}

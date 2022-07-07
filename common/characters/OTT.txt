@@ -1,0 +1,16 @@
+characters={
+	OTT_Ismail_Enver_Pasha={
+		name="Ismail Enver Pasha"
+		portraits={
+			civilian={
+				large="gfx/leaders/OTT/Portrait_Turkey_Ismail_Enver_Pasha.dds"
+			}
+		}
+		country_leader={
+			ideology=Military_Junta
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+}

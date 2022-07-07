@@ -1,0 +1,16 @@
+characters={
+	ENG_David_Lloyd_George={
+		name="David Lloyd George"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_David_Lloyd_George.dds"
+			}
+		}
+		country_leader={
+			ideology=Market_Liberalism
+			traits={ }
+			expire="1965.1.1.1"
+
+		}
+	}
+}
