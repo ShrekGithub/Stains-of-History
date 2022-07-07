@@ -17,7 +17,7 @@ country = {
 			modifier = {
 				offence = -0.1
 				defence = -0.1
-				army_org_factor = -20
+				army_org_factor = -0.2
 				attrition = -0.1
 			}
 		}
