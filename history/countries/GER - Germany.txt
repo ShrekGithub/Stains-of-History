@@ -374,7 +374,7 @@ create_faction = Central_Powers
 add_to_faction = GER
 add_to_faction = AUS
 add_to_faction = BUL
-add_to_faction = TUR
+add_to_faction = OTT
 
 
 add_ideas = {
