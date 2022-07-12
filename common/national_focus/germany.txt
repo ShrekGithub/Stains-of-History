@@ -1,0 +1,422 @@
+﻿focus_tree = {
+	id = german_focus_starting
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+
+	continuous_focus_position = {
+		x = 150
+		y = 2000
+	}
+	
+	default = no
+
+	focus = {
+		id = GER_the_oncoming_fear
+		icon = GFX_goal_unkown
+		x = 4
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_meet_with_the_generals
+		icon = GFX_goal_unkown
+		x = 4
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_the_oncoming_fear
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_endless_suffering
+		icon = GFX_goal_unkown
+		x = 3
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_meet_with_the_generals
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_abandon_the_alpine_front
+		icon = GFX_goal_unkown
+		x = 3
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_endless_suffering
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_every_man_a_soldier
+		icon = GFX_goal_unkown
+		x = 3
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_abandon_the_alpine_front
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_the_eastern_tide
+		icon = GFX_goal_unkown
+		x = 5
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_meet_with_the_generals
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_contact_lenin
+		icon = GFX_goal_unkown
+		x = 5
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_the_eastern_tide
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_aid_the_bolsheviks
+		icon = GFX_goal_unkown
+		x = 5
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_contact_lenin
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_keinen_schritt_zurueck
+		icon = GFX_goal_unkown
+		x = 3
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_every_man_a_soldier
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_treaty_of_brest_litovsk
+		icon = GFX_goal_unkown
+		x = 5
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_aid_the_bolsheviks
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_all_eyes_on_west_now
+		icon = GFX_goal_unkown
+		x = 4
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_keinen_schritt_zurueck
+		}
+		prerequisite = {
+			focus = GER_treaty_of_brest_litovsk
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_britannia_dies_on_the_waves
+		icon = GFX_goal_unkown
+		x = 2
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_all_eyes_on_west_now
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_expand_ms5_production
+		icon = GFX_goal_unkown
+		x = 2
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_britannia_dies_on_the_waves
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_fund_the_spgb
+		icon = GFX_goal_unkown
+		x = 2
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_expand_ms5_production
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_over_by_christmas
+		icon = GFX_goal_unkown
+		x = 4
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_all_eyes_on_west_now
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_one_more_push
+		icon = GFX_goal_unkown
+		x = 4
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_over_by_christmas
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_push_all_the_way_to_paris
+		icon = GFX_goal_unkown
+		x = 4
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_one_more_push
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_triumph_over_the_sky
+		icon = GFX_goal_unkown
+		x = 6
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_all_eyes_on_west_now
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_make_a_surprise_for_yankees
+		icon = GFX_goal_unkown
+		x = 6
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_triumph_over_the_sky
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_rain_of_bombs
+		icon = GFX_goal_unkown
+		x = 6
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_make_a_surprise_for_yankees
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_we_cannot_go_back_now
+		icon = GFX_goal_unkown
+		x = 4
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_fund_the_spgb
+		}
+		prerequisite = {
+			focus = GER_push_all_the_way_to_paris
+		}
+		prerequisite = {
+			focus = GER_rain_of_bombs
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_we_going_to
+		icon = GFX_goal_unkown
+		x = 4
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_we_cannot_go_back_now
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+}
