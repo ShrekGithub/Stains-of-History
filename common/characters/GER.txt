@@ -57,7 +57,7 @@ characters={
 	}
 	
 	GER_Albrect_Von_Wurttenberg={
-		name="Albrect Von Wurttenberg"
+		name="Albrect von Wurttenberg"
 		portraits={
 			army={
 				large="gfx/leaders/GER/Portrait_Germany_Albrect_Von_Wurttenberg.dds"
@@ -66,6 +66,26 @@ characters={
 		
 		
 		field_marshal={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
+	
+	GER_Erich_Von_Lundendorff={
+		name="Erich von Lundendorff"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Erich_Von_Lundendorff.dds"
+			}
+		}
+		
+		
+		corps_commander={
 			traits={ }
 			skill=3
 			attack_skill=3
