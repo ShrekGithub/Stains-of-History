@@ -95,4 +95,23 @@ characters={
 			legacy_id=1
 		}
 	}
+
+	GER_Oskar_Von_Hutier={
+		name="Oskar von Hutier"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Oskar_Von_Hutier.dds"
+			}
+		}
+		
+		corps_commander={
+			traits={ career_officer naval_invader }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
 }
