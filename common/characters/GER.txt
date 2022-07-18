@@ -114,4 +114,24 @@ characters={
 			legacy_id=1
 		}
 	}
+	
+	GER_Max_Von_Gallvitz={
+		name="Max von Gallvitz"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Max_Von_Gallvitz.dds"
+			}
+		}
+		
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
 }
