@@ -396,6 +396,7 @@ recruit_character = GER_Ernst_Thalmann
 recruit_character = GER_Albrect_Von_Wurttenberg
 recruit_character = GER_Erich_Von_Lundendorff
 recruit_character = GER_Oskar_Von_Hutier
+recruit_character = GER_Max_Von_Gallvitz
 
 
 
