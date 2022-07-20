@@ -1,0 +1,7 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_the_specter_of_defeat_event_image"
+		texturefile = "gfx/event_pictures/the_specter_of_defeat.dds"
+	}
+}

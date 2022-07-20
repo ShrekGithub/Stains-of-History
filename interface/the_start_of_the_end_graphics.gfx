@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_the_start_of_the_end_bookmark"
+		texturefile = "gfx/interface/the_start_of_the_end_1917.dds"
+	}
+}
