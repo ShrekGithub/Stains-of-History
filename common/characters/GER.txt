@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			ideology=Prussian_Constitutionalism
 			traits={ }
+			desc = GER_WILHELM_II_DESC
 			expire="1965.1.1.1"
 
 		}

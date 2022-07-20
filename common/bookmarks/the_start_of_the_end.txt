@@ -1,0 +1,35 @@
+bookmarks = {
+	bookmark = {
+		name = "THE_START_OF_THE_END_NAME"
+		desc = "THE_START_OF_THE_END_LOC"
+		date = 1917.6.1.12
+		picture = "GFX_the_start_of_the_end_bookmark"
+		default_country = "GER"
+		default = yes
+		
+
+		"GER"={
+			history = "GER_TSOTE_DESC_LOC"
+			ideology = Authoritarianism
+			ideas = {
+				GER_front_stalemate
+				GER_schlieffen_plan
+				GER_front_stalemate
+			}
+			focuses = {
+				GER_endless_suffering
+				GER_the_oncoming_fear
+				GER_the_eastern_tide
+			}
+		}
+		
+			"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

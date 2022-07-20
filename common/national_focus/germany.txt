@@ -19,7 +19,7 @@
 
 	focus = {
 		id = GER_the_oncoming_fear
-		icon = GFX_goal_unkown
+		icon = GFX_goal_GER_oncoming_fear
 		x = 4
 		y = 0
 		cost = 10
@@ -27,6 +27,10 @@
 			factor = 1
 		}
 		completion_reward = {
+		country_event = {
+		id = germany.1
+		hours = 1
+		}
 		
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
