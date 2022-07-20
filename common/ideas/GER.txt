@@ -2,7 +2,7 @@ ideas = {
 
 country = {
 		GER_front_stalemate = {
-			picture = GER_front_stalemate
+			picture = GFX_idea_ger_front_stalemate
 			
 			allowed = {
 				tag = GER
@@ -18,13 +18,13 @@ country = {
 				offence = -0.1
 				defence = -0.1
 				army_org_factor = -0.2
-				attrition = -0.1
+				attrition = 0.1
 			}
 		}
 
 		GER_schlieffen_plan = {
 
-			picture = ger_schlieffen_plan
+			picture = GER_schlieffen_plan
 			
 			allowed = {
 				tag = GER
@@ -44,7 +44,7 @@ country = {
 
 		GER_low_famine = {
 
-			picture = ger_low_famine
+			picture = GER_low_famine
 			
 			allowed = {
 				tag = GER
