@@ -135,4 +135,26 @@ characters={
 			legacy_id=1
 		}
 	}
+	
+	GER_Friedrich_Sixt_Von_Armin={
+		name="Friedrich Sixt von Armin"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Friedrich_Sixt_Von_Armin.dds"
+			}
+		}
+		
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
+	
+	
 }

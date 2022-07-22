@@ -48,6 +48,8 @@
 		}
 		completion_reward = {
 		
+		country_event =  germany.2
+		
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -69,9 +71,9 @@
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
-
+	
 	focus = {
-		id = GER_abandon_the_alpine_front
+		id = GER_reconsider_our_troop_deployment
 		icon = GFX_goal_unkown
 		x = 3
 		y = 3
@@ -98,7 +100,7 @@
 			factor = 1
 		}
 		prerequisite = {
-			focus = GER_abandon_the_alpine_front
+			focus = GER_reconsider_our_troop_deployment
 		}
 		completion_reward = {
 		
