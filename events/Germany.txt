@@ -1,0 +1,34 @@
+﻿###########################
+# German Events
+###########################
+
+add_namespace = germany
+
+country_event = {
+	id = germany.1
+	title = "The Specter of Defeat"
+	desc = germany.1.d
+	picture = GFX_the_specter_of_defeat_event_image
+
+	is_triggered_only = yes
+
+	option = {
+		name = "I shall not sacrifice Germany for the sake of my ego."
+		add_war_support = 0.01
+	}
+}
+
+country_event = {
+	id = germany.2
+	title = "The State of The War"
+	desc = germany.2.d
+	picture = GFX_the_state_of_the_war_image
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Those who refuse to adapt must always perish."
+		army_experience = 5
+	}
+}
+

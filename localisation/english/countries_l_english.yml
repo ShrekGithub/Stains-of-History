@@ -123,4 +123,11 @@
  MNT:0 "Montenegro"
  MNT_DEF:0 "Montenegro"
  MNT_ADJ:0 "Montenegrin"
+  
+ ENG_Liberalism:0 "United Kingdom"
+ ENG_Liberalism_DEF:0 "the United Kingdom"
+ ENG_Liberalism_ADJ:0 "British"
+ ENG:0 "Britain"
+ ENG_DEF:0 "Britain"
+ ENG_ADJ:0 "British"
 
