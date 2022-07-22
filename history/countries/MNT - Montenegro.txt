@@ -1,6 +1,6 @@
 ﻿capital = 105 # Montenegro
 
-oob = "MON_1936"
+
 
 set_research_slots = 3
 
@@ -38,6 +38,29 @@ set_popularities = {
 	Socialism = 8
 	Ultranationalism = 0
 	Centrism = 0
+}
+
+if = {
+	limit = {
+		has_start_date < 1918.11.11
+	}
+
+	declare_war_on = {
+		target = GER
+		type = annex_everything
+	}
+		declare_war_on = {
+		target = AUS
+		type = annex_everything
+	}
+		declare_war_on = {
+		target = BUL
+		type = annex_everything
+	}
+		declare_war_on = {
+		target = OTT
+		type = annex_everything
+	}
 }
 
 if = {

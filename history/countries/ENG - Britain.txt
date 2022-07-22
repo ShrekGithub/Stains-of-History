@@ -1,19 +1,5 @@
 ﻿capital = 126
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "ENG_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "ENG_1936_nsb"
-}
 
 starting_train_buffer = 4
 
@@ -378,7 +364,28 @@ set_popularities = {
 	Centrism = 0
 }
 
+if = {
+	limit = {
+		has_start_date < 1918.11.11
+	}
 
+	declare_war_on = {
+		target = GER
+		type = annex_everything
+	}
+		declare_war_on = {
+		target = AUS
+		type = annex_everything
+	}
+		declare_war_on = {
+		target = BUL
+		type = annex_everything
+	}
+		declare_war_on = {
+		target = OTT
+		type = annex_everything
+	}
+}
 
 
 

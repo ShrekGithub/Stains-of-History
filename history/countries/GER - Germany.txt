@@ -1,19 +1,6 @@
 ﻿capital = 64
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "GER_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "GER_1936_nsb"
-}
+
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -397,6 +384,7 @@ recruit_character = GER_Albrect_Von_Wurttenberg
 recruit_character = GER_Erich_Von_Lundendorff
 recruit_character = GER_Oskar_Von_Hutier
 recruit_character = GER_Max_Von_Gallvitz
+recruit_character = GER_Friedrich_Sixt_Von_Armin
 
 
 

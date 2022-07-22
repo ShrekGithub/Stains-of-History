@@ -1,6 +1,5 @@
 ﻿capital = 111
 
-oob = "FIN_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "FIN_1936_naval_mtg"
@@ -157,6 +156,29 @@ set_popularities = {
 	Socialism = 8
 	Ultranationalism = 0
 	Centrism = 0
+}
+
+if = {
+	limit = {
+		has_start_date < 1918.11.11
+	}
+
+	declare_war_on = {
+		target = GER
+		type = annex_everything
+	}
+		declare_war_on = {
+		target = AUS
+		type = annex_everything
+	}
+		declare_war_on = {
+		target = BUL
+		type = annex_everything
+	}
+		declare_war_on = {
+		target = OTT
+		type = annex_everything
+	}
 }
 
 1939.1.1 = {

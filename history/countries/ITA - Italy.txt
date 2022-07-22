@@ -1,19 +1,6 @@
 ﻿capital = 2
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "ITA_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "ITA_1936_nsb"
-}
+
 
 starting_train_buffer = 1.5
 
@@ -136,17 +123,28 @@ if = {
 	add_ideas = MTG_naval_treaty_adherent
 }
 
-# DIPLOMACY / WAR 36
+
 if = {
 	limit = {
-		has_start_date < 1936.01.02
+		has_start_date < 1918.11.11
 	}
 
 	declare_war_on = {
-		target = ETH
+		target = GER
 		type = annex_everything
 	}
-	give_guarantee = ALB
+		declare_war_on = {
+		target = AUS
+		type = annex_everything
+	}
+		declare_war_on = {
+		target = BUL
+		type = annex_everything
+	}
+		declare_war_on = {
+		target = OTT
+		type = annex_everything
+	}
 }
 
 1939.1.1 = {
