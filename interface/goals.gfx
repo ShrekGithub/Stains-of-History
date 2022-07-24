@@ -8,18 +8,18 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-	name = "GFX_goal_continuous_non_factory_construct"
-	texturefile = "gfx/interface/goals/goal_continuous_non_factory_construct.dds"			
+	name = "GFX_goal_GER_meeting_with_the_generals"
+	texturefile = "gfx/interface/goals/focus_GER_meeting_with_the_generals.dds"			
 	}	
 	
 	SpriteType = {
-	name = "GFX_goal_continuous_reduce_training_time"
-	texturefile = "gfx/interface/goals/goal_continuous_reduce_training_time.dds"			
+	name = "GFX_goal_GER_endelss_suffering"
+	texturefile = "gfx/interface/goals/focus_GER_endelss_suffering.dds"			
 	}	
 	
 	SpriteType = {
-	name = "GFX_goal_continuous_boost_freedom"
-	texturefile = "gfx/interface/goals/goal_continuous_boost_freedom.dds"			
+	name = "GFX_goal_GER_the_eastern_tide"
+	texturefile = "gfx/interface/goals/focus_GER_the_eastern_tide.dds"			
 	}	
 	
 	SpriteType = {
