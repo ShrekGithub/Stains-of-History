@@ -36,7 +36,7 @@
 
 	focus = {
 		id = GER_meet_with_the_generals
-		icon = GFX_goal_unkown
+		icon = GFX_goal_GER_meeting_with_the_generals
 		x = 4
 		y = 1
 		cost = 10
@@ -56,7 +56,7 @@
 
 	focus = {
 		id = GER_endless_suffering
-		icon = GFX_goal_unkown
+		icon = GFX_goal_GER_endelss_suffering
 		x = 3
 		y = 2
 		cost = 10
@@ -110,7 +110,7 @@
 
 	focus = {
 		id = GER_the_eastern_tide
-		icon = GFX_goal_unkown
+		icon = GFX_goal_GER_the_eastern_tide
 		x = 5
 		y = 2
 		cost = 10

@@ -77,6 +77,26 @@ characters={
 		}
 	}
 	
+	GER_Paul_Von_Hindenburg={
+		name="Paul von Hindenburg"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Paul_Von_Hindenburg.dds"
+			}
+		}
+		
+		
+		field_marshal={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
+	
 	GER_Erich_Von_Lundendorff={
 		name="Erich von Lundendorff"
 		portraits={
@@ -141,6 +161,46 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/GER/Portrait_Germany_Friedrich_Sixt_Von_Armin.dds"
+			}
+		}
+		
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
+	
+	GER_August_Von_Mackensen={
+		name="August von Mackensen"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_August_Von_Mackensen.dds"
+			}
+		}
+		
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
+	
+	GER_Franz_Von_Bayern={
+		name="Franz von Bayern"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Franz_Von_Bayern.dds"
 			}
 		}
 		
