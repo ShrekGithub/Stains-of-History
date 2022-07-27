@@ -23,8 +23,8 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-	name = "GFX_goal_continuous_suppression"
-	texturefile = "gfx/interface/goals/goal_continuous_suppression.dds"			
+	name = "GFX_goal_GER_contact_lenin"
+	texturefile = "gfx/interface/goals/focus_GER_contact_lenin.dds"			
 	}	
 	
 	SpriteType = {

@@ -21,16 +21,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_Anarchism_group"
-		texturefile = "gfx/interface/ideologies/Anarchism_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_Burgundian_System_group"
-		texturefile = "gfx/interface/ideologies/Burgundian_System_group.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_ideology_Centrism_group"
 		texturefile = "gfx/interface/ideologies/Centrism_group.dds"
 	}

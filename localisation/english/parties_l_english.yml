@@ -1,8 +1,5 @@
 ﻿l_english:
- Anarchism:0 "Anarchist"
- Anarchism_noun:0 "Anarchism"
- Anarcho_Communism:0 "Anarcho-Communism"
- Anarcho_Syndicalism:0 "Anarcho Syndicalism"
+
  
   Authoritarianism:0 "Authoritarian"
  Authoritarianism_noun:0 "Authoritarianism"
@@ -13,11 +10,6 @@
  Stratocracy:0 "Stratocracy"
  Kemalism:0 "Kemalism"
  Semi_Constitutional_Monarchy:0 "Semi-Constitutional Monarchy"
- 
-  Burgundian_System:0 "Burgundian"
- Burgundian_System_noun:0 "Burgundian System"
- Esoteric_Nazism:0 "Esoteric Nazism"
- Spartanism:0 "Spartanism"
  
  Centrism:0 "Centrist"
  Centrism_noun:0 "Centrism"
@@ -107,7 +99,6 @@
  GER_Authoritarianism_party:0 "DkP"
  GER_Communism_party:0 "Spartakus (H)"
  GER_Socialism_party:0 "Spartakus (M-DM)"
- GER_Anarchism_party:0 "FAUD"
  GER_Social_Democracy_party:0 "SDPG"
  GER_Liberalism_party:0 "PVP"
  GER_Centrism_party:0 "Z"
@@ -116,13 +107,12 @@
  GER_Ultranationalism_party:0 "-"
  GER_National_Socialism_party:0 "-"
  GER_Fascism_party:0 "-"
- GER_Burgundian_System_party:0 "-"
+
  
  
  SER_Authoritarianism_party:0 "NRS (A)"
  SER_Communism_party:0 "KPS"
  SER_Socialism_party:0 "SPS"
- SER_Anarchism_party:0 "Anarhizam"
  SER_Social_Democracy_party:0 "SSDP"
  SER_Liberalism_party:0 "LS"
  SER_Centrism_party:0 "NRS (Center)"
@@ -131,13 +121,12 @@
  SER_Paternalism_party:0 "VV"
  SER_National_Socialism_party:0 "-"
  SER_Fascism_party:0 "-"
- SER_Burgundian_System_party:0 "-"
+
  
  
  AUS_Authoritarianism_party:0 "DVP"
  AUS_Communism_party:0 "KPO"
  AUS_Socialism_party:0 "FFS"
- AUS_Anarchism_party:0 "FAUO"
  AUS_Social_Democracy_party:0 "SDAPO"
  AUS_Liberalism_party:0 "ZC"
  AUS_Centrism_party:0 "OVP"
@@ -146,4 +135,4 @@
  AUS_Paternalism_party:0 "DVP"
  AUS_National_Socialism_party:0 "-"
  AUS_Fascism_party:0 "-"
- AUS_Burgundian_System_party:0 "-"
+
