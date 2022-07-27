@@ -96,6 +96,26 @@ characters={
 			legacy_id=1
 		}
 	}
+
+	GER_Hermann_Von_Eichman={
+		name="Hermann von Eichman"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Hermann_Von_Eichman.dds"
+			}
+		}
+		
+		
+		field_marshal={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
 	
 	GER_Erich_Von_Lundendorff={
 		name="Erich von Lundendorff"
@@ -232,6 +252,93 @@ characters={
 			defense_skill=2
 			planning_skill=3
 			logistics_skill=2
+			legacy_id=1
+		}
+	}
+	
+	GER_Alfred_Von_Tirpitz={
+		name="Alfred von Tirpitz"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Alfred_Von_Tirpitz.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			maneuvering_skill=5
+			coordination_skill=5
+			legacy_id=1
+		}
+	}
+	
+	GER_Reinhard_Scheer={
+		name="Reinhard Scheer"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Reinhard_Scheer.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			maneuvering_skill=5
+			coordination_skill=5
+			legacy_id=1
+		}
+	}
+	GER_Graf_Von_Spee={
+		name="Graf von Spee"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Graf_Von_Spee.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			maneuvering_skill=5
+			coordination_skill=5
+			legacy_id=1
+		}
+	}
+	GER_Hellmuth_Von_Mucke={
+		name="Hellmuth von Mucke"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Hellmuth_Von_Mucke.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			maneuvering_skill=5
+			coordination_skill=5
+			legacy_id=1
+		}
+	}
+	GER_Walter_Forstmann={
+		name="Walter_Forstmann"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Walter_Forstmann.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			maneuvering_skill=5
+			coordination_skill=5
 			legacy_id=1
 		}
 	}

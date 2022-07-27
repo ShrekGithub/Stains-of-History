@@ -128,7 +128,7 @@
 
 	focus = {
 		id = GER_contact_lenin
-		icon = GFX_goal_unkown
+		icon = GFX_goal_GER_contact_lenin
 		x = 5
 		y = 3
 		cost = 10
@@ -406,7 +406,7 @@
 	}
 
 	focus = {
-		id = GER_we_going_to
+		id = GER_we
 		icon = GFX_goal_unkown
 		x = 4
 		y = 11
@@ -416,6 +416,46 @@
 		}
 		prerequisite = {
 			focus = GER_we_cannot_go_back_now
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = GER_won
+		icon = GFX_goal_unkown
+		x = 2
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_we
+		}
+				mutually_exclusive = {
+			focus = GER_are_damned 
+		}
+		completion_reward = {
+		
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = GER_are_damned
+		icon = GFX_goal_unkown
+		x = 6
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = GER_we
+		}
+				mutually_exclusive = {
+			focus = GER_won 
 		}
 		completion_reward = {
 		
