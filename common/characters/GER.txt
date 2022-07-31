@@ -237,10 +237,30 @@ characters={
 	}
 	
 	GER_Prittwitz={
-		name="Prittwitz"
+		name="Maximilian von Prittwitz"
 		portraits={
 			army={
 				large="gfx/leaders/GER/Portrait_Germany_Prittwitz.dds"
+			}
+		}
+		
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
+	
+	GER_Hans_Von_Gronau={
+		name="Hans von Gronau"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Hans_Von_Gronau.dds"
 			}
 		}
 		
