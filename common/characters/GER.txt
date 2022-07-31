@@ -362,6 +362,21 @@ characters={
 			legacy_id=1
 		}
 	}
-	
-	
+	GER_josias_von_heeringen = {
+		name="Josias von Herringen"
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Josias_Von_Herringen.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=3
+			legacy_id=1
+		}
+	}
 }

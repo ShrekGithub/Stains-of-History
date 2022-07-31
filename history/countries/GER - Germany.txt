@@ -163,6 +163,6 @@ recruit_character = GER_Reinhard_Scheer
 recruit_character = GER_Graf_Von_Spee
 recruit_character = GER_Hellmuth_Von_Mucke
 recruit_character = GER_Walter_Forstmann
- 
+recruit_character = GER_josias_von_heeringen
 
 
